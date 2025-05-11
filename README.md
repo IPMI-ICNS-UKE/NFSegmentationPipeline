@@ -151,8 +151,8 @@ The pipeline offers multiple modes:
 ---
 ## Tested Configuration
 **Data**: Highly anisotropic T2-weighted fat-suppressed coronal WB-MRI (1.5T, 3T) with voxel spacing of 0.625 mm x 0.625 mm x 7.8 mm in NIFTI format acquired with:
-- Siemens Magnetom (Siemens Healthineers, Erlangen, Germany)
-- Philips Ingenia (Best, The Netherlands)
+- Siemens Magnetom (Siemens Healthineers, Erlangen, Germany) - used for development and evaluation of this pipeline, as described in the associated manuscript.
+- Philips Ingenia (Best, The Netherlands) - used for limited post-submission qualitative testing to assess generalizability. Not included in model training or evaluation reported in the associated manuscript.
 
 **Hardware**: 
 - Machine 1: 64-bit Ubuntu 22.04.5 LTS with an AMD Ryzen Threadripper Pro 3975WX CPU and an NVIDIA RTX A6000 GPU
